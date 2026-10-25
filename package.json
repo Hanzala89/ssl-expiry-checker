@@ -1,0 +1,32 @@
+{
+  "name": "ssl-expiry-checker",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI tool to check SSL/TLS certificate expiry and health. Powered by RenewOS (https://renewos.in).",
+  "main": "index.js",
+  "bin": {
+    "ssl-expiry-checker": "./index.js"
+  },
+  "keywords": [
+    "ssl",
+    "tls",
+    "ssl-checker",
+    "certificate-expiry",
+    "ssl-monitor",
+    "https",
+    "renewos",
+    "expiry-tracker"
+  ],
+  "author": "RenewOS (https://renewos.in)",
+  "license": "MIT",
+  "homepage": "https://renewos.in/solutions/ssl-certificate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hanzala89/ssl-expiry-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hanzala89/ssl-expiry-checker/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
